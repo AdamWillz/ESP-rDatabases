@@ -7402,3 +7402,290 @@ control period finish hour                                            0.
 open(1) shut(0) outside period                                        0.
 index for the sensed property                                         0.
 signal set point                                                      0.
+
+---------------------------------------------------------------------
+  PLANT COMPONENT                                           No :    113
+
+ Component Description
+    Generic type     : WCH Ground Source Heat Pump
+    Description      : Ground Source Heat Pump connecting to WCH system; 1 node model
+    Insertion date   : 09 Oct 17 20:56
+    Type: Single component                    Component code :    470
+
+ Nodal Scheme Description
+    Number of nodes  :   1      No of nonzero matrix elements :      1
+    Matrix positions :   1,
+    Node connections :   1,
+    Variable type    :  20,
+
+ Miscellaneous Data
+    Adata items   :   3    Bdata items   :  30    Cdata items   :   1
+ ADATA variables:
+    1 Component total mass (kg)
+      Value =    110.00        Range (Min Max):     25.000        25.000
+    2 Mass weighted average specific heat (J/kgK)
+      Value =    600.00        Range (Min Max):     600.00        600.00
+    3 Heat loss modulus (W/K)
+      Value =    20.00         Range (Min Max):     20.00         100.00
+ BDATA variables:
+    1 COP model [1 fixed;2 - Carnot efficiency; 3- quadratic; 3-cubic]
+      Value =    3.000         Range (Min Max):      1.0           2.0
+    2 COP empirical coefficient a0 (-)
+      Value =    6.0365        Range (Min Max):     0.0000        20.000
+    3 COP empirical coefficient a1 (-)
+      Value =    -0.1167       Range (Min Max):     0.000         9999.0
+    4 COP empirical coefficient a2 (-)
+      Value =    0.00076       Range (Min Max):     0.000         9999.0
+    5 COP empirical coefficient a3 (-)
+      Value =    0.000         Range (Min Max):     0.000         9999.0
+    6 Compressor Model
+      Value =    2.000         Range (Min Max):     0.0000        9000.0
+    8 Compressor empirical coefficient a0 (-)
+      Value =    0.9950        Range (Min Max):     0.0000        9000.0
+    8 Compressor empirical coefficient a1 (-)
+      Value =    0.0100        Range (Min Max):     0.0000        9000.0
+    9 Compressor empirical coefficient a2 (-)
+      Value =    0.0330        Range (Min Max):     0.0000        9000.0
+   10 Compressor empirical coefficient a3 (-)
+      Value =    5000.0        Range (Min Max):     0.0000        9000.0
+   11 Compressor pf (-)
+      Value =    0.9000        Range (Min Max):     0.0000        1.0000
+   12 Pump rating (W)
+      Value =    85.000        Range (Min Max):     5.0000        5000.0
+   13 Pump pf (-)
+      Value =    0.9000        Range (Min Max):     0.0000        1.0000
+   14 Flowrate at rated pump power (l/s)
+      Value =    0.3333        Range (Min Max):     0.0001        9999.0
+   15 Controller power (W)
+      Value =    10.000        Range (Min Max):     1.0000        1000.0
+   16 Controller pf (-)
+      Value =    1.0000        Range (Min Max):     0.0000        1.0000
+   17 Tout max (degC)
+      Value =    90.000        Range (Min Max):     0.0000        100.00
+   18 Tin max (degC)
+      Value =    60.000        Range (Min Max):     0.0000        100.00
+   19 Temp compensation on/off (0-off 1-on)
+      Value =    1.0000        Range (Min Max):     0.0000        1.00000
+   20 Nominal water return temperature (Deg C)
+      Value =    45.000        Range (Min Max):     0.0000        100.000
+   21 Nominal water return deadband (Deg C)
+      Value =    2.0000        Range (Min Max):     0.0000        100.000
+   22 Temp compensation start temperature [Deg C]
+      Value =    3.0000        Range (Min Max):     0.0000        100.000
+   23 Temp compensation end temperature (-)
+      Value =    17.000        Range (Min Max):     0.0000        100.000
+   24 Temp compensation gradient c1 (-)
+      Value =    -1.300        Range (Min Max):     0.0000        100.000
+   25 Heat pump lock out time (min)
+      Value =    10.000        Range (Min Max):     0.0000        120.000
+   26 Ground source model [1 - standard profile 2 - user profile 3 - f(depth)]
+      Value =     4.000        Range (Min Max):     0.0000        10.000
+   27 Model coef g0 [1 & 2 - profile number 3 - depth in m]
+      Value =     4.000        Range (Min Max):     0.0000       100.000
+   28 Nominal water return temperature for DHW (degC)
+      Value =    60.000        Range (Min Max):    55.0000        80.000
+   29 Tout max DHW (degC)
+      Value =    65.000        Range (Min Max):    60.0000       100.000
+   30 Tin max DHW (degC)
+      Value =    61.000        Range (Min Max):    50.0000        85.000
+ CDATA variables:
+    1  Call for heat [0 off - 1 space heat 2 - dhw] (-)
+
+ Number of additional output parameters:     9
+ Additional output variables:
+    1 Heat output                    Type :    4
+    2 Coefficient of performance     Type :    2
+    3 Ground temperature             Type :    2
+    4 Device on/off status           Type :    4
+    5 Return water set point         Type :    2
+    6 Real power                     Type :    2
+    7 Reactive power                 Type :    4
+    8 Apparent power                 Type :    2
+    9 Ground heat extraction         Type :    4
+
+ Mass flow components data
+Quadratic law mass flow component   dP= a.m+b.m^2
+Type :  25    Init suppl dat :   3    Tot suppl dat :  10    No. of conns :   0
+fluid type (1=air, 2=water)                                           2.0000
+flow coefficient a (Pa/(kg/s))                                       0.10000
+flow coefficient b (Pa/(kg/s)^2)                                     0.40000
+control flag                                                          0.0000
+control period day type                                               0.0000
+control period start hour                                             0.0000
+control period finish hour                                            0.0000
+open(1) shut(0) outside period                                        0.0000
+index for the sensed property                                         0.0000
+signal set point                                                      0.0000
+
+---------------------------------------------------------------------
+  PLANT COMPONENT                                           No :    114
+
+ Component Description
+    Generic type     : WCH Ground Source Heat Pump
+    Description      : Ground Source Heat Pump connecting to WCH system; 2 node model
+    Insertion date   : 09 Oct 17 20:56
+    Type: Single component                    Component code :    480
+
+ Nodal Scheme Description
+    Number of nodes  :   2      No of nonzero matrix elements :      2
+    Matrix positions :   1,   4,
+    Node connections :   1,   1,
+    Variable type    :  20,  20,
+
+ Miscellaneous Data
+    Adata items   :   3    Bdata items   :  31    Cdata items   :   1
+ ADATA variables:
+    1 Component total mass (kg)
+      Value =    110.00        Range (Min Max):     25.000        25.000
+    2 Mass weighted average specific heat (J/kgK)
+      Value =    600.00        Range (Min Max):     600.00        600.00
+    3 Heat loss modulus (W/K)
+      Value =    20.00         Range (Min Max):     20.00         100.00
+ BDATA variables:
+    1 COP model [1 fixed;2 - Carnot efficiency; 3- quadratic; 3-cubic]
+      Value =    3.000         Range (Min Max):      1.0           2.0
+    2 COP empirical coefficient a0 (-)
+      Value =    6.0365        Range (Min Max):     0.0000        20.000
+    3 COP empirical coefficient a1 (-)
+      Value =    -0.1167       Range (Min Max):     0.000         9999.0
+    4 COP empirical coefficient a2 (-)
+      Value =    0.00076       Range (Min Max):     0.000         9999.0
+    5 COP empirical coefficient a3 (-)
+      Value =    0.000         Range (Min Max):     0.000         9999.0
+    6 Compressor Model
+      Value =    2.000         Range (Min Max):     0.0000        9000.0
+    8 Compressor empirical coefficient a0 (-)
+      Value =    0.9950        Range (Min Max):     0.0000        9000.0
+    8 Compressor empirical coefficient a1 (-)
+      Value =    0.0100        Range (Min Max):     0.0000        9000.0
+    9 Compressor empirical coefficient a2 (-)
+      Value =    0.0330        Range (Min Max):     0.0000        9000.0
+   10 Compressor empirical coefficient a3 (-)
+      Value =    5000.0        Range (Min Max):     0.0000        9000.0
+   11 Compressor pf (-)
+      Value =    0.9000        Range (Min Max):     0.0000        1.0000
+   12 Pump rating (W)
+      Value =    85.000        Range (Min Max):     5.0000        5000.0
+   13 Pump pf (-)
+      Value =    0.9000        Range (Min Max):     0.0000        1.0000
+   14 Flowrate at rated pump power (l/s)
+      Value =    0.3333        Range (Min Max):     0.0001        9999.0
+   15 Controller power (W)
+      Value =    10.000        Range (Min Max):     1.0000        1000.0
+   16 Controller pf (-)
+      Value =    1.0000        Range (Min Max):     0.0000        1.0000
+   17 Tout max (degC)
+      Value =    90.000        Range (Min Max):     0.0000        100.00
+   18 Tin max (degC)
+      Value =    60.000        Range (Min Max):     0.0000        100.00
+   19 Temp compensation on/off (0-off 1-on)
+      Value =    1.0000        Range (Min Max):     0.0000        1.00000
+   20 Nominal water return temperature (Deg C)
+      Value =    45.000        Range (Min Max):     0.0000        100.000
+   21 Nominal water return deadband (Deg C)
+      Value =    2.0000        Range (Min Max):     0.0000        100.000
+   22 Temp compensation start temperature [Deg C]
+      Value =    3.0000        Range (Min Max):     0.0000        100.000
+   23 Temp compensation end temperature (-)
+      Value =    17.000        Range (Min Max):     0.0000        100.000
+   24 Temp compensation gradient c1 (-)
+      Value =    -1.300        Range (Min Max):     0.0000        100.000
+   25 Heat pump lock out time (min)
+      Value =    10.000        Range (Min Max):     0.0000        120.000
+   26 BrinePump rating (W)
+      Value =    60.000        Range (Min Max):     0.0000        120.000
+   27 BrinePump pf (-)
+      Value =     0.900        Range (Min Max):     0.0000        1.0000
+   28 BrineFlowrate at rated brine pump power (l/s)
+      Value =     0.300        Range (Min Max):     0.0000        2.0000
+   29 Nominal water return temperature for DHW (degC)
+      Value =    60.000        Range (Min Max):    55.0000        80.000
+   30 Tout max DHW (degC)
+      Value =    65.000        Range (Min Max):    60.0000       100.000
+   31 Tin max DHW (degC)
+      Value =    61.000        Range (Min Max):    50.0000        85.000
+ CDATA variables:
+    1  Call for heat [0 off - 1 space heat 2 - dhw] (-)
+
+ Number of additional output parameters:     9
+ Additional output variables:
+    1 Heat output                    Type :    4
+    2 Coefficient of performance     Type :    2
+    3 Ground temperature             Type :    2
+    4 Device on/off status           Type :    4
+    5 Return water set point         Type :    2
+    6 Real power                     Type :    2
+    7 Reactive power                 Type :    4
+    8 Apparent power                 Type :    2
+    9 Ground heat extraction         Type :    4
+
+ Mass flow components data
+Quadratic law mass flow component   dP= a.m+b.m^2
+Type :  25    Init suppl dat :   3    Tot suppl dat :  10    No. of conns :   0
+fluid type (1=air, 2=water)                                           2.0000
+flow coefficient a (Pa/(kg/s))                                       0.10000
+flow coefficient b (Pa/(kg/s)^2)                                     0.40000
+control flag                                                          0.0000
+control period day type                                               0.0000
+control period start hour                                             0.0000
+control period finish hour                                            0.0000
+open(1) shut(0) outside period                                        0.0000
+index for the sensed property                                         0.0000
+signal set point                                                      0.0000
+Quadratic law mass flow component   dP= a.m+b.m^2
+Type :  25    Init suppl dat :   3    Tot suppl dat :  10    No. of conns :   0
+fluid type (1=air, 2=water)                                           2.0000
+flow coefficient a (Pa/(kg/s))                                       0.10000
+flow coefficient b (Pa/(kg/s)^2)                                     0.40000
+control flag                                                          0.0000
+control period day type                                               0.0000
+control period start hour                                             0.0000
+control period finish hour                                            0.0000
+open(1) shut(0) outside period                                        0.0000
+index for the sensed property                                         0.0000
+signal set point                                                      0.0000
+
+---------------------------------------------------------------------
+  PLANT COMPONENT                                           No :    115
+
+ Component Description
+    Generic type     : WCH automatic flow control valve
+    Description      : WCH automatic flow control valve; 1 node model
+    Insertion date   : 16 Oct 17 17:30
+    Type: Single component                    Component code :    740
+
+ Nodal Scheme Description
+    Number of nodes  :   1      No of nonzero matrix elements :      1
+    Matrix positions :   1,
+    Node connections :   1,
+    Variable type    :  20,
+
+ Miscellaneous Data
+    Adata items   :   4    Bdata items   :   0    Cdata items   :   0
+ ADATA variables:
+    1 Component total mass (kg)
+      Value =    1.0000        Range (Min Max):     1.0000        1.0000
+    2 Mass weighted average specific heat (J/kgK)
+      Value =    500.00        Range (Min Max):     500.00        500.00
+    3 UA modulus (W/K)
+      Value =    3.5000        Range (Min Max):     3.5000        3.5000
+    4 Setpoint (l/s)
+      Value =    0.1000        Range (Min Max):     0.0000        1.0000
+
+ Number of additional output parameters:     1
+ Additional output variables:
+     1 Valve position                 Type :    3
+
+ Mass flow components data
+Quadratic law mass flow component   dP= a.m+b.m^2
+Type :  25    Init suppl dat :   3    Tot suppl dat :  10    No. of conns :   0
+fluid type (1=air, 2=water)                                           2.0000
+flow coefficient a (Pa/(kg/s))                                       0.10000
+flow coefficient b (Pa/(kg/s)^2)                                     0.40000
+control flag                                                          0.0000
+control period day type                                               0.0000
+control period start hour                                             0.0000
+control period finish hour                                            0.0000
+open(1) shut(0) outside period                                        0.0000
+index for the sensed property                                         0.0000
+signal set point                                                      0.0000
