@@ -2,7 +2,7 @@
 *date,Mon Dec 12 12:15:10 2016
 # CFClayers database defined in CFClayers.db2.a
 *doc,ESP-r CFClayers database contains CFC shading layers and IGDB glazing layers v49 with visual data.
-86  # number of classifications
+87  # number of classifications
 #
 # CFC layers have the following general attributes:
 #              conductivity (W/(m-K)
