@@ -45,7 +45,7 @@ Category ( 1) Brick includes a range of brick types. Most are inorganic-porous. 
 *item,brick honeycomb, 11, 1,Brick extruded honeycomb from IBO PassivHaus
 0.2700,800.000,1000.000,0.900,0.900,0.700,0.700,35.000,102.0,-
 # class index |nb items|description (32 char)
-*class, 2,20,Concrete
+*class, 2,21,Concrete
 Category ( 2) Concrete includes a mix of concrete types from heavy weight to lightweight insulating types. Mostly inorganic porous. Based on data traditionally distributed with ESP-r.
 *item,light mix concrete, 21, 2,Light mix concrete (inorganic-porous)
 0.3800,1200.000,653.000,0.900,0.900,0.650,0.650,6.000,100.0,-
