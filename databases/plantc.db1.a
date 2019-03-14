@@ -3556,7 +3556,7 @@ Type :   0    Init suppl dat :   0    Tot suppl dat :   0    No. of conns :   0
     9 Injection node number (integer)
       Value =    7.0000        Range (Min Max):     1.0000        99.000
    10 Insulation layer (integer)
-      Value =    0.0000        Range (Min Max):     1.0000        99.000
+      Value =    0.0000        Range (Min Max):     0.0000        99.000
    11 Under Relaxation factor
       Value =    0.5000        Range (Min Max):     0.0010        1.0000
    12 Maximum number of iterations (integer)
